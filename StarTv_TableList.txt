@@ -6135,5 +6135,5 @@ EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'Mail should be
 GO
 EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'1 - Ticket 2- Dispute' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'TicketAssignmentDetail', @level2type=N'COLUMN',@level2name=N'RequestType'
 GO
-EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'1 for High, 2 for Medium, 3 for Low' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'TicketDetails', @level2type=N'COLUMN',@level2name=N'Priority'
+XEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'1 for High, 2 for Medium, 3 for Low' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'TicketDetails', @level2type=N'COLUMN',@level2name=N'Priority'
 GO
